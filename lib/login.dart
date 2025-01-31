@@ -34,7 +34,7 @@ class _LoginState extends State<Login> {
         // Login berhasil, arahkan ke halaman Home
         Navigator.pushReplacement(
           context,
-          MaterialPageRoute(builder: (context) => Home()),
+          MaterialPageRoute(builder: (context) => HomePage()),
         );
       } else {
         // Username atau password salah
